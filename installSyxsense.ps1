@@ -32,7 +32,7 @@ if ($site -match '"Default Site"') {
   exit
 }
 
-$syxsenseURL = 'https://lightchange.cloudmanagementsuite.com/WebService/api/v1/Downloads/ResponderSetup.msi'
+$syxsenseURL = ''
 
 # Admin Check
 If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
